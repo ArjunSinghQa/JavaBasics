@@ -14,6 +14,7 @@ public class FindTheWordWithoutSplit {
 			{
 				System.out.print(b[i]);
 				System.out.println("hiiiiiiii");
+				System.out.println("hiiiiiiii2");
 				
 			}
 		}
