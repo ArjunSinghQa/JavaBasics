@@ -19,6 +19,7 @@ public class ExceptionHandling {
 	  finally
 	    {
 		System.out.println("Singh Bangari");
+		System.out.println("how are you");
 	    }
 
 }}
