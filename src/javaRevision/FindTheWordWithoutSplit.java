@@ -13,6 +13,8 @@ public class FindTheWordWithoutSplit {
 			if(i>5 && i<11)
 			{
 				System.out.print(b[i]);
+				System.out.println("hiiiiiiii");
+				
 			}
 		}
 		
