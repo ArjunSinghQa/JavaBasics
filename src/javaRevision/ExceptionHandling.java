@@ -22,6 +22,7 @@ public class ExceptionHandling {
 		System.out.println("how are you");
 		System.out.println("how are you ji");
 		System.out.println("how are you jiiiiii");
+		System.out.println("how are you batade");
 	    }
 
 }}
