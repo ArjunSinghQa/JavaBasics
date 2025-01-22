@@ -21,7 +21,11 @@ public class UnderstandMethods {
 	public void names()
 	{
 		System.out.println("Arjun Singh");
+<<<<<<< HEAD
 		System.out.println("How am i");
+=======
+		System.out.println("Arjun Singh how are you");
+>>>>>>> 43ee1eee746330020bb37bc78798b16ec4dca471
 	}
 	
 	public static void names2()     //static methods can be called directly in the main method within the class.

@@ -19,9 +19,14 @@ public class ExceptionHandling {
 	  finally
 	    {
 		System.out.println("Singh Bangari");
+<<<<<<< HEAD
 		System.out.println("Singh Bangari");
 		
 		
+=======
+		System.out.println("Singh Bangari2");
+		System.out.println("Singh Bangari3");
+>>>>>>> 43ee1eee746330020bb37bc78798b16ec4dca471
 	    }
 
 }}
