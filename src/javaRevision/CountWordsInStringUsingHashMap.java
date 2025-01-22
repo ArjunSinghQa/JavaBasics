@@ -13,14 +13,14 @@ public class CountWordsInStringUsingHashMap {
 		        for (int i=0; i<split.length; i++) {
 		            if (map.containsKey(split[i])) {
 		                int count = map.get(split[i]);
-		                map.put(split[i], count+1);
+		                map.put(split[i], count+1); // returns the value already associated with key
 		            }
 		            else {
 		                map.put(split[i], 1);
 		            }
 		        }
 		        System.out.println(map);
-
+//hello this code is good
 	}
 
 }
