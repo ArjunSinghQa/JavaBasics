@@ -31,7 +31,7 @@ public class Basics {
 //hello there
 		RestAssured.baseURI= "https://rahulshettyAcademy.com";
 		String response =given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
-		.body(new String(Files.readAllBytes(Paths.get("C:\\Users\\sneha\\OneDrive\\Desktop\\addplace.json")))).when().post("maps/api/place/add/json")
+		.body(new String(Files.readAllBytes(Paths.get("C:\\Users\\Public\\addplace.json")))).when().post("maps/api/place/add/json")
 		.then().statusCode(200).body("scope",equalTo("APP"))
 		.header("server", "Apache/2.4.41 (Ubuntu)").extract().response().asString();
 		

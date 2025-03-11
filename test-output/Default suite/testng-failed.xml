@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javaRevision.TestNGDataDrivenTesting">
+      <class name="files.DynamicJson">
         <methods>
-          <include name="LoginwithData" invocation-numbers="0 1 2 3"/>
+          <include name="addBook" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- javaRevision.TestNGDataDrivenTesting -->
+      </class> <!-- files.DynamicJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
